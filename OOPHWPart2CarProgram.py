@@ -1,8 +1,8 @@
 import OOPHWPart2CarClass as cc
 
-model_year = input("What is the year of your car model? ")
-car_make = input("What is the make of your car? ")
-print()
+model_year = "2016"
+car_make = "Jeep"
+
 a = 0
 b = 0
 

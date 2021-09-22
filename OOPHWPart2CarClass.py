@@ -9,10 +9,7 @@ class Car:
         self.__speed += 5
 
     def brake(self):
-        if self.__speed > 0:
-            self.__speed -= 5
-        else:
-            print("Speed can go no lower!")
+        self.__speed -= 5
 
     def get_speed(self):
         return self.__speed
